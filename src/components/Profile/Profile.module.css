@@ -1,0 +1,56 @@
+.profile {
+    font-family: 'Merriweather', serif;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 350px;
+    height: 450px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.quantity {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.avatar {
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.stats {
+    padding: 0;
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    position: relative;
+    right: -5px;
+}
+
+.statsItem {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    
+    border: 2px solid darkgray;
+    border-radius: 1px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+p {
+    margin: 0;
+}
